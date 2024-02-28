@@ -702,6 +702,7 @@ left: 0;
 	overflow:hidden;
 	padding-bottom:50px;
 	z-index:2;
+	height: auto !important;
 }
 #about img{
 	width: 100%;
@@ -1099,10 +1100,28 @@ left: 0;
 	text-align:center;
 	height: 60px;
 }
+.services-offer .services-icon-dollar{
+	position: relative; 
+	margin: 0 auto;
+	width: 100%;
+	text-align:center;
+	height: 60px; 
+}
 .services-offer .services-icon1:before{
 	position: absolute;
 	font-family: 'FontAwesome';
 	content: "\f0d0";
+	width: 100%;
+	font-size:40px;
+	line-height: 60px;
+	display: block;
+	text-align:center;
+	z-index: 1; 
+}
+.services-offer .services-icon-dollar:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	content: "\f155";
 	width: 100%;
 	font-size:40px;
 	line-height: 60px;
@@ -2270,4 +2289,8 @@ ul.slimmenu li {
 	font-weight: bold;
 	font-size: 12px;
 	cursor: pointer;
+
+}
+.show-more:hover{
+	color:#4f4d4d;
 }

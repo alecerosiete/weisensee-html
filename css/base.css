@@ -211,10 +211,10 @@
 
 
 .text-justify{
-    text-justify: auto;
     text-align: justify;
 	
 }
 .text-about{
 	line-height: 2;
+	overflow: auto;
 }

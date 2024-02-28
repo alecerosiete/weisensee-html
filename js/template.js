@@ -342,7 +342,14 @@ $(".group1").colorbox({rel:'group1'});
     let year = new Date().getFullYear();
     $("#now").text(year);
                       
+    let serviceList = $(".show-more").next()
 
+    $(".show-more").on('click', function() {
+      let e = $(this)
+      e.next().toggleClass('inactive');
+      console.log("togle",e.text())
+      e.text(e.text() == "Ver mas" ? "Ver menos": "Ver mas")
+    })
 });
 
 
